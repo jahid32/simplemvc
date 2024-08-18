@@ -1,0 +1,21 @@
+{
+    "name": "jahid32/simplemvc",
+    "description": "A simple mvc structure project",
+    "type": "framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md  Mostafizur Rahman",
+            "email": "jahid32@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
